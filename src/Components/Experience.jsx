@@ -8,7 +8,7 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }} 
-        className="my-5 md:my-10 lg:my-20 text-center text-4xl">Experience
+        className="my-5 md:my-10 lg:my-20 text-center text-2xl md:text-4xl">Experience
         </motion.h2>
       <div className="space-y-8 max-w-3xl mx-auto">
         
@@ -17,8 +17,8 @@ const Experience = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-             className="bg-stone-900 p-6 rounded-xl shadow">
-          <h3 className="text-2xl font-semibold mb-2">Full Stack Developer (Fresher)</h3>
+             className="bg-stone-900 p-2 md:p-6 rounded-xl shadow">
+          <h3 className="text-lg md:text-2xl font-semibold mb-2">Full Stack Developer (Fresher)</h3>
           <p className="text-stone-400 mb-4">
             Currently pursuing a Full Stack Development course, with hands-on
             projects using React, Tailwind CSS, JavaScript, Node.js, and MongoDB.
@@ -34,8 +34,8 @@ const Experience = () => {
         <motion.div
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100 }}
-                        transition={{ duration: 1 }} className="bg-stone-900 p-6 rounded-xl shadow">
-          <h3 className="text-2xl font-semibold mb-2">Process Advisor - Banking Backend</h3>
+                        transition={{ duration: 1 }} className="bg-stone-900 p-2 md:p-6 rounded-xl shadow">
+          <h3 className="text-lg md:text-2xl font-semibold mb-2">Process Advisor - Banking Backend</h3>
           <p className="text-stone-400 mb-4">Nov 2016 - Aug 2018</p>
           <p className="text-stone-400">
             Worked on backend banking operations ensuring data accuracy,

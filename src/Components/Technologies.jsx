@@ -28,7 +28,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                className='my-5 md:my-20 text-center text-4xl'>
+                className='my-3 md:my-20 text-center text-2xl md:text-4xl'>
                 Technologies</motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
@@ -63,7 +63,7 @@ const Technologies = () => {
                     initial="initial"
                     animate='animate'
                     variants={iconVariants(4)}>
-                    <RiHtml5Line className='text-7xl text-[#0000FF]' />
+                    <RiHtml5Line className='text-7xl text-[#F06529]' />
                 </motion.div>
             </motion.div>
 

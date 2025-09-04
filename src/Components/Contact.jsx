@@ -24,8 +24,8 @@ const Contact = () => {
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}  className='my-4'>
                 9884510929</motion.p>
-            <a href="#" className='border-b'>archanaradha95@gmail.com</a>
-
+            <a href="mailto:archanaradha95@gmail.com" className='border-b'>archanaradha95@gmail.com</a>
+                    {/* tel: */}
         </div>
       
     </div>

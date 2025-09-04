@@ -5,10 +5,10 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between py-6'>
+    <nav className='flex items-center justify-between px-2 md:px-4 md:py-6'>
         <div className='flex flex-shrink-0 items-center'>
     <a href="/" aria-label='Home'>
-    <img src="/logo.jpg" alt="logo" className="w-[60px] h-[60px] rounded-full object-cover  " />
+    <img src="/logo.jpg" alt="logo" className="w-[30px] h-[30px] md:w-[60px] md:h-[60px] rounded-full object-cover  " />
 
     {/* <span className='font-bold text-white bg-black text-3xl'>AR</span> */}
     </a>

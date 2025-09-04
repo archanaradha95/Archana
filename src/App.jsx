@@ -25,7 +25,7 @@ function App() {
 
       
 
-      <div className="relative z-10 mx-auto px-8">
+      <div className="relative z-10 mx-auto px-3 md:px-10">
           <Navbar/>
           <Hero/>
           <Technologies/>

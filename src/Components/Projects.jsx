@@ -26,12 +26,12 @@ const projects = [
 
 const Projects = () => {
     return (
-        <div className="pb-4">
+        <div className="pb-2 md:pb-4">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-5 md:my-10 lg:my-20 text-center text-4xl">
+                className="my-5 md:my-10 lg:my-20 text-center text-2xl md:text-4xl">
                 Projects</motion.h2>
             <div>
                 {projects.map((project) => (
@@ -48,7 +48,7 @@ const Projects = () => {
                                 alt={project.title}
                                 width={250}
                                 height={250}
-                                className="mb-6 rounded" />
+                                className="mb-3 md:mb-6 rounded" />
                         </motion.div>
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
@@ -66,19 +66,17 @@ const Projects = () => {
                                 </span>
                             ))}
                         </motion.div>
-                        <div className="flex gap-4 my-5">
+                        <div className="flex gap-4 my-3 md:my-5">
                             <a
                                 href={project.github}
                                 target="_blank"
-                                className="text-blue-400 hover:underline"
-                            >
+                                className="text-blue-400 hover:underline">
                                 GitHub
                             </a>
                             <a
                                 href={project.live}
                                 target="_blank"
-                                className="text-green-400 hover:underline"
-                            >
+                                className="text-green-400 hover:underline">
                                 Live Demo
                             </a>
                         </div>
