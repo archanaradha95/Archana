@@ -10,7 +10,7 @@ const Contact = () => {
             transition={{ duration: 0.5 }} 
             className='my-5 md:my-10 text-center text-4xl '>
                 Get In Touch</motion.h2>
-        <div className='text-center tracking-tighter'>
+        <div className='text-center tracking-tighter flex flex-col'>
             <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
@@ -19,11 +19,12 @@ const Contact = () => {
                <p > Villivakkam,</p>
                <p>Chennai-600049</p>
             </motion.div>
-            <motion.p
+            <motion.a 
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}  className='my-4'>
-                9884510929</motion.p>
+            transition={{ duration: 1 }}  className='my-4'
+            href="tel:9884510929">
+                9884510929</motion.a>
             <a href="mailto:archanaradha95@gmail.com" className='border-b'>archanaradha95@gmail.com</a>
                     {/* tel: */}
         </div>

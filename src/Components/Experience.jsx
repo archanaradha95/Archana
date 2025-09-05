@@ -13,7 +13,7 @@ const Experience = () => {
       <div className="space-y-8 max-w-3xl mx-auto">
         
         {/* IT Fresher */}
-        <motion.div
+        {/* <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
@@ -28,7 +28,29 @@ const Experience = () => {
             <li>Bistro Bliss - Restaurant website with responsive UI</li>
             <li>Business Website - Company landing page with modern design</li>
           </ul>
-        </motion.div>
+        </motion.div> */}
+
+
+        <motion.div
+  whileInView={{ opacity: 1, x: 0 }}
+  initial={{ opacity: 0, x: -100 }}
+  transition={{ duration: 1 }}
+  className="bg-stone-900 p-2 md:p-6 rounded-xl shadow"
+>
+  <h3 className="text-lg md:text-2xl font-semibold mb-2">
+    Full Stack Developer Intern
+  </h3>
+  <p className="text-stone-400 mb-2">Aryu Academy | june,2025 - Present</p>
+  <p className="text-stone-400 mb-4">
+    Pursuing Full Stack Development course and internship at Aryu Academy. 
+    Gaining hands-on experience in building responsive and interactive 
+    applications using React, Tailwind CSS, JavaScript, Node.js, and MongoDB.
+  </p>
+  <ul className="list-disc list-inside text-stone-400">
+    <li>Bistro Bliss - Restaurant website with responsive UI</li>
+    <li>Stanby Business - Company landing page with modern design</li>
+  </ul>
+</motion.div>
 
         {/* Other Experience */}
         <motion.div
