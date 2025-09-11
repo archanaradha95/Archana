@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { SiNetlify } from "react-icons/si";
+
 
 
 const Navbar = () => {
@@ -15,8 +17,12 @@ const Navbar = () => {
         </div>
 
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <a href="http://www.linkedin.com/in/">
+            {/* <a href="http://www.linkedin.com/in/">
             <FaLinkedin />
+</a> */}
+
+<a href="https://app.netlify.com/teams/archanaradha95/projects">
+<SiNetlify />
 </a>
 <a href="https://github.com/archanaradha95">
              <FaGithub />
