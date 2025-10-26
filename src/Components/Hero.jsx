@@ -66,7 +66,7 @@ const Hero = () => {
                         </motion.p>
                         <motion.a
                             variants={childVariants}
-                            href="/ArchanaR_FullStackDeveloper_Resume" target='_blank'
+                            href="/ArchanaR_FullStackDeveloper_Resume.pdf" target='_blank'
                             download
                             className='bg-white rounded-full p-4 text-sm text-stone-800 mb-5 md:mb-10'>
                             Download Resume</motion.a>
