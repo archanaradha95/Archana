@@ -20,7 +20,7 @@ const Contact = () => {
         >
           <p>21/3, East Mada Street,</p>
           <p>Villivakkam,</p>
-          <p>Chennai – 600049</p>
+          <p>Chennai - 600049</p>
         </motion.div>
 
         <motion.a

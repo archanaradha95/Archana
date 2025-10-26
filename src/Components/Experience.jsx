@@ -64,7 +64,7 @@ const Experience = () => {
           className="bg-stone-900 p-4 md:p-6 rounded-xl shadow"
         >
           <h3 className="text-lg md:text-2xl font-semibold mb-2">
-            Process Advisor – Banking Backend
+            Process Advisor - Banking Backend
           </h3>
           <p className="text-stone-400 mb-2">Barclays Global Services | Nov 2016 - Aug 2018</p>
           <p className="text-stone-400">
