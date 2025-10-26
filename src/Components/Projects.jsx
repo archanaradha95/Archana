@@ -66,7 +66,7 @@ const Projects = () => {
                                 </span>
                             ))}
                         </motion.div>
-                        <div className="flex gap-4 my-3 md:my-5">
+                        <div className="flex gap-4 my-3 md:my-5 justify-center items-center">
                             <a
                                 href={project.github}
                                 target="_blank"

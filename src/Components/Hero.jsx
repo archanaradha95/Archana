@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import ShinyText from '../animations/ShinyText';
-  
+
 
 
 const containerVariants = {
@@ -53,20 +53,20 @@ const Hero = () => {
                             className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-xl md:text-3xl tracking-tight text-transparent '>
                             Full Stack Developer</motion.span> */}
 
-                            <ShinyText 
-  text="Full Stack Developer" 
-  disabled={false} 
-  speed={3} 
-  className='custom-class' 
-/>
+                        <ShinyText
+                            text="Full Stack Developer"
+                            disabled={false}
+                            speed={3}
+                            className='custom-class'
+                        />
                         <motion.p
                             variants={childVariants}
                             className='my-5 max-w-lg md:py-6 text-base md:text-xl leading-relaxed tracking-tighter'>
-                            I'm currently pursuing a Full Stack Development course, where I'm building skills in HTML, CSS, JavaScript, React, Node.js, and databases. Passionate about creating responsive web applications and continuously learning new technologies to grow as a developer.
+                            I’m an aspiring Full Stack Developer currently interning at Aryu Academy, where I’m gaining hands-on experience with React, Node.js, and Tailwind CSS. I enjoy building responsive, user-friendly applications and continuously exploring new technologies to grow as a developer.
                         </motion.p>
                         <motion.a
                             variants={childVariants}
-                            href="/Archana Resume.pdf" target='_blank'
+                            href="/ArchanaR_FullStackDeveloper_Resume.pdf" target='_blank'
                             download
                             className='bg-white rounded-full p-4 text-sm text-stone-800 mb-5 md:mb-10'>
                             Download Resume</motion.a>

@@ -17,11 +17,11 @@ const Navbar = () => {
         </div>
 
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            {/* <a href="http://www.linkedin.com/in/">
+            <a href="https://www.linkedin.com/in/archana-r-38b4b22ba">
             <FaLinkedin />
-</a> */}
+</a>
 
-<a href="https://app.netlify.com/teams/archanaradha95/projects">
+<a href="https://rarchanaportfolio.netlify.app" target="_blank" rel="noopener noreferrer">
 <SiNetlify />
 </a>
 <a href="https://github.com/archanaradha95">
